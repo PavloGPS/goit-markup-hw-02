@@ -1,6 +1,47 @@
-:root{
+/* цвет вторичного текста --secondary-text-color: #757575 */
+/* цвет основного текста --primary-text-color:#212121 */
 
-}
+/* цвет акцента #2196F3 */
+
+:root{
+  --logo-main-color: #000000;
+  --accent-color: #2196F3;
+  --logo-accent-color: var(--accent-color);
+  --hero-text-color: #ffffff;
+  --primary-text-color: #212121;  
+  --secondary-text-color: #757575;
+  --accent-color: #2196F3;
+  }
+  /* .activity */
+  .post {
+    /* Стилі статті */
+  }
+  
+  .activity-title {
+    /* Стилі заголовка */
+  }
+  
+  .activity-text {
+    /* Стилі тексту */
+  }
+  
+  .activity-link {
+    /* Стилі посилання */
+  }
+  
+  .activity-link:hover {
+    /* Стилі посилання при ховері */
+  }
+
+/* font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+identical to box height
+letter-spacing: 0.03em;
+
+color: #2196F3; */
 body{
     font-family: "Roboto", sans-serif;
 }
