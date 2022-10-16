@@ -2,51 +2,59 @@
 /* цвет основного текста --primary-text-color:#212121 */
 
 /* цвет акцента #2196F3 */
-
-:root{
-  --logo-main-color: #000000;
-  --accent-color: #2196F3;
-  --logo-accent-color: var(--accent-color);
-  --hero-text-color: #ffffff;
-  --primary-text-color: #212121;  
-  --secondary-text-color: #757575;
-  --accent-color: #2196F3;
-  }
-  /* .activity */
+/* .activity 
   .post {
-    /* Стилі статті */
+    /* Стилі статті 
   }
   
   .activity-title {
-    /* Стилі заголовка */
+    /* Стилі заголовка 
   }
   
   .activity-text {
-    /* Стилі тексту */
+    /* Стилі тексту 
   }
   
   .activity-link {
-    /* Стилі посилання */
+    /* Стилі посилання 
   }
   
   .activity-link:hover {
-    /* Стилі посилання при ховері */
+     Стилі посилання при ховері 
   }
 
-/* font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: calc(31/26);
-identical to box height
-letter-spacing: 0.03em;
-
 color: #2196F3; */
+
+:root{  
+  --accent-color: #2196F3;
+  --logo-dark-color: #000;
+  --logo-light-color: #fff;
+  --primary-text-color: #212121;  
+  --secondary-text-color: #757575;
+  --hero-text-color: #fff;
+  --button-active: #188CE8;
+
+  }
+  
 body{
-    font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+
 }
 .logo{
-    font-family: "Raleway", sans-serif;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31/26);  
+  text-transform: capitalize;
+}
+.logo-dark{
+  color: var(--logo-dark-color)
+}
+.logo-light{
+  color: var(--logo-light-color)
 }
 
 /* font-family: "Raleway", sans-serif;
