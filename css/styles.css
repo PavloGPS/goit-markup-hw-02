@@ -82,14 +82,16 @@ body {
 .hero-btn {
   color: var(--hero-text-color);
   background-color: var(--order-btn-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.06em;
   line-height: calc(30 / 16);
+  cursor: pointer;
 }
-.hero-btn::first-letter {
+/* .hero-btn::first-letter {
   text-transform: capitalize;
-}
+} */
 /* активний стан для кнопки */
 .hero-btn:hover,
 .hero-btn:focus {
@@ -99,10 +101,10 @@ body {
 .item-title {
   color: var(--secondary-text-color);
 }
-.item-title::first-letter,
+/* .item-title::first-letter,
 .item-title::first-letter {
   text-transform: capitalize;
-}
+} */
 .features .item-title {
   font-weight: 700;
   font-size: 14px;
@@ -148,11 +150,11 @@ body {
 /* заголовок картки та її текст*/
 .card-title {
   color: var(--secondary-text-color);
-  font-size: 16px;
   font-weight: 500;
 }
 .card-title,
 .card-text {
+  font-size: 16px;
   line-height: calc(19 / 16);
 }
 /* футер */
@@ -184,11 +186,13 @@ body {
 .portfolio .btn {
   background-color: var(--filter-btn-color);
   color: var(--secondary-text-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   border-color: transparent;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
+  cursor: pointer;
 }
 /*кнопки фільтрів при наведенні та фокусі*/
 .portfolio .btn:hover,
@@ -210,5 +214,6 @@ body {
 }
 /* текст картки портфоліо */
 .portfolio .card-text {
+  font-size: 16px;
   line-height: calc(30 / 16);
 }
